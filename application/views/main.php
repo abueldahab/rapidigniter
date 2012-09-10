@@ -1,36 +1,9 @@
 	<section id="main" class="column">
 		
-		<h4 class="alert_info">Welcome to the free MediaLoot admin panel template, this could be an informative message.</h4>
+		<h4 class="alert_info alert">Welcome to the free MediaLoot admin panel template, this could be an informative message.</h4>
 		
-		<article class="module width_full">
-			<header><h3>Stats</h3></header>
-			<div class="module_content">
-				<article class="stats_graph">
-					<img src="http://chart.apis.google.com/chart?chxr=0,0,3000&chxt=y&chs=520x140&cht=lc&chco=76A4FB,80C65A&chd=s:Tdjpsvyvttmiihgmnrst,OTbdcfhhggcTUTTUadfk&chls=2|2&chma=40,20,20,30" width="520" height="140" alt="" />
-				</article>
-				
-				<article class="stats_overview">
-					<div class="overview_today">
-						<p class="overview_day">Today</p>
-						<p class="overview_count">1,876</p>
-						<p class="overview_type">Hits</p>
-						<p class="overview_count">2,103</p>
-						<p class="overview_type">Views</p>
-					</div>
-					<div class="overview_previous">
-						<p class="overview_day">Yesterday</p>
-						<p class="overview_count">1,646</p>
-						<p class="overview_type">Hits</p>
-						<p class="overview_count">2,054</p>
-						<p class="overview_type">Views</p>
-					</div>
-				</article>
-				<div class="clear"></div>
-			</div>
-		</article><!-- end of stats article -->
-		
-		<article class="module width_3_quarter">
-		<header><h3 class="tabs_involved">Content Manager</h3>
+		<article id="main_table" class="module width_full">
+		<header><h3 class="tabs_involved">Projects</h3>
 		<ul class="tabs">
    			<li><a href="#tab1">Posts</a></li>
     		<li><a href="#tab2">Comments</a></li>
@@ -43,48 +16,14 @@
 			<thead> 
 				<tr> 
    					<th></th> 
-    				<th>Entry Name</th> 
-    				<th>Category</th> 
+    				<th>Project Name</th> 
+    				<th>Created By</th> 
     				<th>Created On</th> 
     				<th>Actions</th> 
 				</tr> 
 			</thead> 
 			<tbody> 
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Lorem Ipsum Dolor Sit Amet</td> 
-    				<td>Articles</td> 
-    				<td>5th April 2011</td> 
-    				<td><input type="image" src="/assets/images/icn_edit.png" title="Edit"><input type="image" src="/assets/images/icn_trash.png" title="Trash"></td> 
-				</tr> 
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Ipsum Lorem Dolor Sit Amet</td> 
-    				<td>Freebies</td> 
-    				<td>6th April 2011</td> 
-   				 	<td><input type="image" src="/assets/images/icn_edit.png" title="Edit"><input type="image" src="/assets/images/icn_trash.png" title="Trash"></td> 
-				</tr>
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Sit Amet Dolor Ipsum</td> 
-    				<td>Tutorials</td> 
-    				<td>10th April 2011</td> 
-    				<td><input type="image" src="/assets/images/icn_edit.png" title="Edit"><input type="image" src="/assets/images/icn_trash.png" title="Trash"></td> 
-				</tr> 
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Dolor Lorem Amet</td> 
-    				<td>Articles</td> 
-    				<td>16th April 2011</td> 
-   				 	<td><input type="image" src="/assets/images/icn_edit.png" title="Edit"><input type="image" src="/assets/images/icn_trash.png" title="Trash"></td> 
-				</tr>
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Dolor Lorem Amet</td> 
-    				<td>Articles</td> 
-    				<td>16th April 2011</td> 
-   				 	<td><input type="image" src="/assets/images/icn_edit.png" title="Edit"><input type="image" src="/assets/images/icn_trash.png" title="Trash"></td> 
-				</tr>  
+				
 			</tbody> 
 			</table>
 			</div><!-- end of #tab1 -->
@@ -140,7 +79,11 @@
 			</table>
 
 			</div><!-- end of #tab2 -->
-			
+			<footer>
+				<div class="submit_link">
+					<input type="submit" value="Create New Project" class="alt_btn">
+				</div>
+			</footer>
 		</div><!-- end of .tab_container -->
 		
 		</article><!-- end of content manager article -->
@@ -169,9 +112,9 @@
 			</footer>
 		</article><!-- end of messages article -->
 		
-		<div class="clear"></div>
 		
-		<article class="module width_full">
+		
+		<article class="module width_3_quarter">
 			<header><h3>Post New Article</h3></header>
 				<div class="module_content">
 						<fieldset>
@@ -184,7 +127,7 @@
 						</fieldset>
 						<fieldset style="width:48%; float:left; margin-right: 3%;"> <!-- to make two field float next to one another, adjust values accordingly -->
 							<label>Category</label>
-							<select style="width:92%;">
+							<select style="width:90%;">
 								<option>Articles</option>
 								<option>Tutorials</option>
 								<option>Freebies</option>
@@ -207,34 +150,18 @@
 			</footer>
 		</article><!-- end of post new article -->
 		
-		<h4 class="alert_warning">A Warning Alert</h4>
-		
-		<h4 class="alert_error">An Error Message</h4>
-		
-		<h4 class="alert_success">A Success Message</h4>
-		
-		<article class="module width_full">
-			<header><h3>Basic Styles</h3></header>
-				<div class="module_content">
-					<h1>Header 1</h1>
-					<h2>Header 2</h2>
-					<h3>Header 3</h3>
-					<h4>Header 4</h4>
-					<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-
-<p>Donec id elit non mi porta <a href="#">link text</a> gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-
-					<ul>
-						<li>Donec ullamcorper nulla non metus auctor fringilla. </li>
-						<li>Cras mattis consectetur purus sit amet fermentum.</li>
-						<li>Donec ullamcorper nulla non metus auctor fringilla. </li>
-						<li>Cras mattis consectetur purus sit amet fermentum.</li>
-					</ul>
-				</div>
-		</article><!-- end of styles article -->
 		<div class="spacer"></div>
 	</section>
+<script>
+	$(document).ready(function(){
+		$(".alert").hide();
+		$(".alert").click(function(){
+			$(".alert").toggle('drop');
+		});
+	
+	});
 
+</script>
 
 </body>
 

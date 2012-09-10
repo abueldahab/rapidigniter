@@ -9,7 +9,7 @@ class #Item_#_model extends CI_Model {
 	}
 	
 	public function get($id = NULL,$limit = NULL,$offset = NULL){
-		#pre_insert#
+		#pre_get#
 		if($id == NULL){
 			$result = $this->db->get_where($this->table, array('id' => $id), $limit, $offset);
 		}

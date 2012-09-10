@@ -14,7 +14,7 @@ class Rapidigniter extends CI_Controller {
 		$this->_gen_controller();
 		$this->_gen_views();
 	}
-	
+		
 	private function _load_plugins(){
 		
 	}
@@ -38,5 +38,6 @@ class Rapidigniter extends CI_Controller {
 	private function _gen_controllers(){
 	
 	}
+	
 	
 }
